@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сторінка "Авторизація"</title>
+    <link rel="stylesheet" href="mystyless.css">
+</head>
+<body class="aut">
+    <h2>Authorization</h2>
+    <form id="loginForm"
+    action="https://fom.in.ua/echo" 
+    method="post" class="authorization">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$">
+<br>
+        <label for="rememberPassword">
+            <input type="checkbox" id="rememberPassword" name="rememberPassword"  required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$">
+            Remember password
+        </label>
+<br>
+<br>
+        <button type="button" onclick="submitForm()">Log in</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,61 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: rgb(13, 116, 113);
+            background-color: bisque;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 60%;
+            padding: 5px;
+            box-sizing: border-box;
+            margin-bottom: 5px;
+        }
+        
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            padding: 5px;
+            background-color: #069a81;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+inpute[type="in-range"] {
+    color: #069a81;
+}
+
+button:hover {
+            background-color: #069a81;
+        }
+        .reg {
+            background-image: url('https://mondial.paris/core/uploads/salons-pms/2022/07/54-Mondial-de-lAuto-2022-nouveaux-exposants-1-NamX.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: aliceblue;
+        }
+        .aut {
+            background-image: url('https://mondial.paris/core/uploads/salons-pms/2022/07/54-Mondial-de-lAuto-2022-nouveaux-exposants-1-NamX.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: aliceblue;
+        }
+
+        li a {
+            color: #069a81; 
+            text-decoration: none;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+        
+        li a:hover {
+            color: #069a81
+        } 
+       
